@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ResultActivity"
+    android:background="@drawable/grad"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="RESULT"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+
+
+    <TextView
+        android:id="@+id/tv_congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text=" Hey, Congratulations!"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Your score is 9 out of 10"
+        android:textColor="#F7CBFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:backgroundTint="#ffffff"
+        android:insetLeft="20dp"
+        android:insetTop="6dp"
+        android:insetRight="20dp"
+        android:insetBottom="6dp"
+        android:padding="10dp"
+        android:text="  RESTART  "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:elevation="2dp"
+        app:iconPadding="10dp"
+        app:strokeColor="#2196F3"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#ffffff"
+        android:insetLeft="20dp"
+        android:insetTop="6dp"
+        android:insetRight="20dp"
+        android:insetBottom="6dp"
+        android:padding="10dp"
+        android:text="      EXIT      "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:elevation="2dp"
+        app:iconPadding="10dp"
+        app:strokeColor="#D51B0D"
+        app:strokeWidth="1dp" />
+
+
+</LinearLayout>
