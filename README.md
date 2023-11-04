@@ -1,11 +1,14 @@
-# Calculator App
+# Flags Quiz App
 
-A simple calculator app built with Kotlin for Android devices.
+An MCQ-based quiz app built with Kotlin, focusing on testing knowledge about flags.
 
 ## Features
 
-- Basic arithmetic operations
-- Clear function to reset calculations
+- Multiple-choice questions based on flags
+- Score tracking
+- Clear options to navigate through questions
+- Result summary at the end of the quiz
+
 
 ## Installation
 
@@ -20,14 +23,14 @@ A simple calculator app built with Kotlin for Android devices.
 
 ## Usage
 
-1. Enter numbers and perform operations.
-2. Use 'C' to clear.
+1. Start the app and begin the quiz.
+2. Choose answers for each flag-based question.
+3. Navigate through questions and submit responses.
+4. View your final score at the end.
 
 ## Contributing
 
 - Fork the repository.
-- Make changes in a new branch.
+- Implement new features or enhancements.
 - Submit a pull request.
-
-
 
